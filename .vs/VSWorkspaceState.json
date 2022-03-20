@@ -3,7 +3,9 @@
     "",
     "\\LockMe",
     "\\LockMe\\LockMe",
-    "\\LockMe\\LockMe\\obj"
+    "\\LockMe\\LockMe\\ViewModels",
+    "\\LockMe\\LockMe\\Views"
   ],
+  "SelectedNode": "\\LockMe\\LockMe\\Views\\LockingAppPage.xaml",
   "PreviewInSolutionExplorer": false
 }

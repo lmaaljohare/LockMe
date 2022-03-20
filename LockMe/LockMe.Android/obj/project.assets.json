@@ -3178,11 +3178,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe.Android\\LockMe.Android.csproj",
+      "projectUniqueName": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe.Android\\LockMe.Android.csproj",
       "projectName": "LockMe.Android",
-      "projectPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe.Android\\LockMe.Android.csproj",
+      "projectPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe.Android\\LockMe.Android.csproj",
       "packagesPath": "C:\\Users\\lmaar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe.Android\\obj\\",
+      "outputPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3203,8 +3203,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe\\LockMe.csproj": {
-              "projectPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe\\LockMe.csproj"
+            "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe.csproj": {
+              "projectPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe.csproj"
             }
           }
         }

@@ -988,11 +988,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe.iOS\\LockMe.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe.iOS\\LockMe.iOS.csproj",
       "projectName": "LockMe.iOS",
-      "projectPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe.iOS\\LockMe.iOS.csproj",
+      "projectPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe.iOS\\LockMe.iOS.csproj",
       "packagesPath": "C:\\Users\\lmaar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe.iOS\\obj\\",
+      "outputPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1013,8 +1013,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe\\LockMe.csproj": {
-              "projectPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe\\LockMe.csproj"
+            "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe.csproj": {
+              "projectPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe.csproj"
             }
           }
         }

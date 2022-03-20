@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r5Q7hbJPng6/8Z2ji1GtAosdFDyqKjgafP1fpzddDaRSqm8XgHWn03TIK+ZkWWL0tnxpvpsOhxvxGI4c8PC5CQ==",
+  "dgSpecHash": "XmoAkyCq9NgIHnyseEOfEeTS+xPU5fsP4uEx1aLRLA6+0FUOIXr2+p72RugB0WQJcv50b67Ds3o06lHuzy3uqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe.Android\\LockMe.Android.csproj",
+  "projectFilePath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe.Android\\LockMe.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lmaar\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\lmaar\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

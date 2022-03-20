@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe\\LockMe.csproj": {}
+    "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe\\LockMe.csproj": {
+    "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe\\LockMe.csproj",
+        "projectUniqueName": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe.csproj",
         "projectName": "LockMe",
-        "projectPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe\\LockMe.csproj",
+        "projectPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe.csproj",
         "packagesPath": "C:\\Users\\lmaar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\LockMe\\obj\\",
+        "outputPath": "C:\\Users\\lmaar\\OneDrive\\Desktop\\LockMe\\LockMe\\LockMe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
