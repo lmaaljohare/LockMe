@@ -14,6 +14,8 @@ namespace LockMe.Views
     {
         public LockingAppPage()
         {
+            InitializeComponent();
         }
+
     }
 }

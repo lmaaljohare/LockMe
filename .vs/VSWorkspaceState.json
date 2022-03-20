@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\LockMe",
-    "\\LockMe\\LockMe",
-    "\\LockMe\\LockMe\\ViewModels",
-    "\\LockMe\\LockMe\\Views"
+    "\\LockMe\\LockMe"
   ],
-  "SelectedNode": "\\LockMe\\LockMe\\Views\\LockingAppPage.xaml",
+  "SelectedNode": "\\LockMe.sln",
   "PreviewInSolutionExplorer": false
 }
