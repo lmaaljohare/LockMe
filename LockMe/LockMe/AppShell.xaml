@@ -99,16 +99,16 @@
             <ShellContent Route="Home" ContentTemplate="{DataTemplate local:HomePage}" />
 
         </Tab>
-       
-       
+        <Tab Title="Component" >
+            <ShellContent Route="Component" ContentTemplate="{DataTemplate local:ComponentPage}" />
+
+        </Tab>
+
         <Tab Title="Add Password" >
             <ShellContent Route="AddPassword" ContentTemplate="{DataTemplate local:AddPasswordPage}" />
 
         </Tab>
-        <Tab Title="Lock App" >
-            <ShellContent Route="LokingApp" ContentTemplate="{DataTemplate local:LockingAppPage}" />
-
-        </Tab>
+       
     </TabBar> 
 
     <!-- Optional Templates 
