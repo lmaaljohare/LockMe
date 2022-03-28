@@ -10,6 +10,7 @@ namespace LockMe
             InitializeComponent();
 
             MainPage = new AppShell();
+
         }
 
         protected override void OnStart()
