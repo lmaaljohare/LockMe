@@ -18,4 +18,5 @@ C:\Users\lmaar\OneDrive\Desktop\LockMe\LockMe\LockMe\bin\Debug\netstandard2.0\Lo
 C:\Users\lmaar\OneDrive\Desktop\LockMe\LockMe\LockMe\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\lmaar\OneDrive\Desktop\LockMe\LockMe\LockMe\obj\Debug\netstandard2.0\ref\LockMe.dll
 C:\Users\lmaar\OneDrive\Desktop\LockMe\LockMe\LockMe\obj\Debug\netstandard2.0\Views\ComponentPage.xaml.g.cs
-C:\Users\lmaar\OneDrive\Desktop\LockMe\LockMe\LockMe\obj\Debug\netstandard2.0\Views\LockingAppPageaml.xaml.g.cs
+C:\Users\lmaar\OneDrive\Desktop\LockMe\LockMe\LockMe\obj\Debug\netstandard2.0\Views\Component\componentPage.xaml.g.cs
+C:\Users\lmaar\OneDrive\Desktop\LockMe\LockMe\LockMe\obj\Debug\netstandard2.0\Views\LockingAppPage.xaml.g.cs

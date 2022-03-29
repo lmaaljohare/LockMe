@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace LockMe.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LockingAppPageaml : ContentPage
+    public partial class LockingAppPage : ContentPage
     {
-        public LockingAppPageaml()
+        public LockingAppPage()
         {
             InitializeComponent();
         }

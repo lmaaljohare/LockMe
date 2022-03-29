@@ -4,7 +4,6 @@
        xmlns:local="clr-namespace:LockMe.Views"
        Title="LockMe"
        x:Class="LockMe.AppShell">
-
     <!--
         The overall app visual hierarchy is defined here, along with navigation.
     
@@ -23,7 +22,11 @@
                 <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
                 <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
                 <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+                
             </Style>
+
+        
+            
             <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
             <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
 
@@ -52,6 +55,7 @@
                         </VisualStateGroup>
                     </VisualStateGroupList>
                 </Setter>
+                
             </Style>
 
             <!--
@@ -78,13 +82,13 @@
         FlyoutDisplayOptions="AsMultipleItems" will create a separate flyout item for each child element    
         https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
     -->
-   <!-- <FlyoutItem Title="Locking" Icon="icon_about.png">
+    <!-- <FlyoutItem Title="Locking" Icon="icon_about.png">
         <ShellContent Route="LockingAppPage" ContentTemplate="{DataTemplate local:LockingAppPage}" />
     </FlyoutItem> -->
- 
+
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
-   <!--<MenuItem Text="Logout" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+    <!--<MenuItem Text="Logout" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
     </MenuItem> -->
 
     <!--
@@ -96,7 +100,10 @@
     -->
     <TabBar>
         <Tab Title="Home" >
-            <ShellContent Route="Home" ContentTemplate="{DataTemplate local:HomePage}" />
+            <ShellContent Route="Home" ContentTemplate="{DataTemplate local:HomePage}" 
+              
+                />
+         
 
         </Tab>
         <Tab Title="Component" >
@@ -108,9 +115,9 @@
             <ShellContent Route="AddPassword" ContentTemplate="{DataTemplate local:AddPasswordPage}" />
 
         </Tab>
-       
-    </TabBar> 
 
+    </TabBar>
+    
     <!-- Optional Templates 
     // These may be provided inline as below or as separate classes.
 

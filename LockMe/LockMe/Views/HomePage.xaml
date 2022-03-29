@@ -1,12 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage    Shell.NavBarIsVisible="False"
+
+             xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LockMe.Views.HomePage">
+              x:Class="LockMe.Views.HomePage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to LockMe!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Select For Locking"
+                HorizontalOptions="CenterAndExpand"
+                   Margin="30"
+                    FontSize="Large"
+                   TextColor="black"
+                  FontFamily="AC"
+/>
+            <Label Text="Selected App"
+              FontSize="Small"
+                   Margin="40,5"
+                   TextColor="Black"
+                   FontFamily="AB"
+                   />
+            <Rectangle
+           WidthRequest="280"
+           HeightRequest="100"
+           BackgroundColor="#EEEDE7"
+           HorizontalOptions="Center"
+                
+                     />
+            <Label Text="All Apps"
+              FontSize="Small"
+              Margin="40,5"
+             TextColor="Black"
+             FontFamily="AB"
+                   />
+            <Rectangle
+           WidthRequest="280"
+           HeightRequest="150"
+            BackgroundColor="#EEEDE7"
+           HorizontalOptions="Center"
+                     />
+
+            <Button Text="Next"
+                VerticalOptions="EndAndExpand"
+                 Margin="40"
+                HorizontalOptions="Center"
+                BackgroundColor="#5902EC" 
+                    FontFamily="AC"
+                   />
+
+           
+
         </StackLayout>
+        
     </ContentPage.Content>
+    
 </ContentPage>

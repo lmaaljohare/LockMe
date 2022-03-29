@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LockMe.Views.LockingAppPageaml.xaml", "Views/LockingAppPageaml.xaml", typeof(global::LockMe.Views.LockingAppPageaml))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("LockMe.Views.LockingAppPage.xaml", "Views/LockingAppPage.xaml", typeof(global::LockMe.Views.LockingAppPage))]
 
 namespace LockMe.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\LockingAppPageaml.xaml")]
-    public partial class LockingAppPageaml : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\LockingAppPage.xaml")]
+    public partial class LockingAppPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(LockingAppPageaml));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(LockingAppPage));
         }
     }
 }
