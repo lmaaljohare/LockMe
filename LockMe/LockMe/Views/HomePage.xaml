@@ -17,6 +17,7 @@
 
                                     <Image Source="{Binding AppIcon}" />
 
+                                 <CheckBox IsChecked="{Binding IsChecked, Mode=TwoWay}" Grid.Row="0" Grid.Column="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
 
                                 </StackLayout>
                             </StackLayout>

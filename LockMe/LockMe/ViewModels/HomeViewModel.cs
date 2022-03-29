@@ -33,8 +33,24 @@ namespace LockMe.ViewModels
         public event PropertyChangedEventHandler PropertyChanged;
 
 
+ public bool IsChecked
+        {
+            get { return isChecked; }
+            set
+            {
+                if (isChecked != value)
+                {
+                    isChecked = value;
+                    if (PropertyChanged != null)
+                    {
+                        PropertyChanged(this, new PropertyChangedEventArgs("IsSelected"));
+                        App.Current.MainPage.DisplayAlert("Title", " item have been selected", "Cancel");
+
+                    }
+                }
 
 
-
+            }
+        }
     }
 }
