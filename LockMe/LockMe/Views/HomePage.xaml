@@ -6,6 +6,25 @@
               x:Class="LockMe.Views.HomePage">
     <ContentPage.Content>
         <StackLayout>
+            <ListView ItemsSource="{Binding InstalledApps}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+
+                                    <Label Text="{Binding AppName}" FontSize="Medium" />
+
+                                    <Image Source="{Binding AppIcon}" />
+
+                                 <CheckBox IsChecked="{Binding IsChecked, Mode=TwoWay}" Grid.Row="0" Grid.Column="1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
             <Label Text="Select For Locking"
                 HorizontalOptions="CenterAndExpand"
                    Margin="30"

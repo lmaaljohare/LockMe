@@ -1,4 +1,5 @@
 ﻿
+using LockMe.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,8 +11,8 @@ namespace LockMe.Views
         public HomePage()
         {
             InitializeComponent();
-           
 
+            BindingContext = new HomeViewModel();
         }
 
        
