@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage    NavigationPage.HasNavigationBar="false"
+
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ContentView="clr-namespace:LockMe.Views.Component"
+                x:Class="LockMe.Views.HomePage"
+                BackgroundColor="White">
+    <ContentPage.Content>
+
+        <StackLayout Padding="0,20,0,0" >
+            <Label Text="Select the App you
+                   want to lock Please " FontSize="Title" FontAttributes="Bold" HorizontalTextAlignment="Center" 
+                   TextColor="Black" FontFamily="AC" />
+            <ListView ItemsSource="{Binding InstalledApps}" SeparatorColor="white"  >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" BackgroundColor="White">
+                               
+
+                                <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand" BackgroundColor="White" Margin="20" >
+
+                                    <Label Text="{Binding AppName}" FontSize="Medium"  />
+
+                                    <Image Source="{Binding AppIcon}" />
+
+                                    <CheckBox IsChecked="{Binding IsChecked, Mode=TwoWay}" Color="#5902EC" 
+                                        Grid.Row="0" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand"  />
+                                </StackLayout>
+                                
+
+                            </StackLayout>
+                            
+                        </ViewCell>
+                        
+                    </DataTemplate>
+                    
+                </ListView.ItemTemplate>
+                
+            </ListView>
+            <ContentView:NextButton ></ContentView:NextButton>
+
+
+
+
+
+        </StackLayout>
+        
+    </ContentPage.Content>
+    
+</ContentPage>
